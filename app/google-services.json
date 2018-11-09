@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "906631947722",
+    "firebase_url": "https://m1croblog-3bd73.firebaseio.com",
+    "project_id": "m1croblog-3bd73",
+    "storage_bucket": "m1croblog-3bd73.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:906631947722:android:587aac97edb28c1c",
+        "android_client_info": {
+          "package_name": "com.example.nikita.m1croblog"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "906631947722-vd8gkh7vs42m7evap5ag18l0nrqut6dq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nikita.m1croblog",
+            "certificate_hash": "96d4b0fc7aac90e4bfc8f1c8931a6dfe2af2bdc0"
+          }
+        },
+        {
+          "client_id": "906631947722-po3lnhsd3u8eq2b3nu9bvgq4fb7t70b6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLHsIsp6SR5cmWEfkIFnc1lqf55XUDxm0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "906631947722-po3lnhsd3u8eq2b3nu9bvgq4fb7t70b6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
