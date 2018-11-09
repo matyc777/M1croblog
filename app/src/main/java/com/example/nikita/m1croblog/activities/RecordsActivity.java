@@ -19,7 +19,6 @@ import android.widget.ListView;
 import android.widget.SimpleAdapter;
 
 import com.example.nikita.m1croblog.R;
-import com.example.nikita.m1croblog.model.UserInformation;
 import com.example.nikita.m1croblog.model.UserRecord;
 import com.example.nikita.m1croblog.service.RecordListSorter;
 import com.google.firebase.auth.FirebaseAuth;
@@ -143,9 +142,7 @@ public class RecordsActivity extends AppCompatActivity
         List<Pair<String, String>> list = new ArrayList<>();
         RecordListSorter sorter = new RecordListSorter();
         userRecordsList = sorter.sort(userRecordsList);
-        for (UserRecord record : userRecordsList) {
-            System.out.println(record.getDate() + " " + record.getText());
-        }
+
         for (UserRecord userRecord: userRecordsList){
             list.add(new Pair<>(userRecord.getDate(),userRecord.getText()));
         }
